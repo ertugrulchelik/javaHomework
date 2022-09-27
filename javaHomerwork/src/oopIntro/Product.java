@@ -19,7 +19,8 @@ public class Product {
 	
 	public Product(int id, String name, double unitPrice, String detail, double discount,
 			double unitPriceAfterDiscount) {
-		super();
+		super(); // neden super kullanıldı?
+				// klastaki base olan parametresiz metotu çalıstırır.
 		this.id = id;
 		this.name = name;
 		this.unitPrice = unitPrice;
